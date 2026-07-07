@@ -1,7 +1,7 @@
 /// <reference lib="ESNext" />
 /// <reference lib="WebWorker" />
 
-const { BlockCache } = await import("https://esm.sh/gh/atspa/bcache");
+import { BlockCache } from "../src/index.ts";
 
 await BlockCache.refreshStatics();
 
