@@ -15,6 +15,4 @@ const bcsResult = {
     usageGB: BlockCache.usageGB,
 };
 
-console.debug(bcsResult);
-
 export default bcsResult;
