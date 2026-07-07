@@ -3,22 +3,22 @@
     "version": "0.0.0-pre.0",
     "private": true,
     "description": "Airtable Block browser cache.",
-    "keywords": [
-        "airtable"
-    ],
     "repository": {
         "type": "git",
         "url": "git+https://github.com/atspa/bcache.git"
     },
+    "keywords": [
+        "airtable"
+    ],
     "license": "MIT",
     "author": "Dominik Bošnjak <bosnjakinimod@gmail.com>",
     "type": "module",
     "files": [
-        "src"
+        "src/index.ts"
     ],
     "scripts": {
         "typecheck": "tsc --noEmit",
-        "example:memory": "node --experimental-strip-types examples/memory.ts"
+        "example:memory": "node --experimental-strip-types tests/memory.ts"
     },
     "devDependencies": {
         "@opengsd/gsd-core": "^1.6.1",
